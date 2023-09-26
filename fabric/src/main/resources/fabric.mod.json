@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "kuaNyue",
+  "version": "${version}",
+
+  "name": "kuaNyue",
+  "description": "wide gauge for create",
+  "authors": [],
+  "contact": {},
+
+  "license": "MIT",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "kuaNyue.mixins.json",
+    "kuaNyue-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": ">=1.19.2"
+  }
+}
